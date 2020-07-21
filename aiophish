@@ -1470,32 +1470,31 @@ fi
 if [[ -f $OLDPWD/core/pr1 ]];then
 cp $OLDPWD/core/pr1 $OLDPWD/$ruta_carpeta
 else
-echo $nosexd
+echo -e $nosexd
 exit 1
 fi
 if [[ -f $OLDPWD/core/pr4 ]];then
 cp $OLDPWD/core/pr2 $OLDPWD/$ruta_carpeta
 else
-echo $nosexd
+echo -e $nosexd
 exit 1
 fi
 if [[ -f $OLDPWD/core/pr3 ]];then
 cp $OLDPWD/core/pr3 $OLDPWD/$ruta_carpeta
 else
-echo $nosexd
+echo -e $nosexd
 exit 1
 fi
 if [[ -f $OLDPWD/core/pr4 ]];then
 cp $OLDPWD/core/pr4 $OLDPWD/$ruta_carpeta
 else
-echo $nosexd
+echo -e $nosexd
 exit 1
 fi
 if [[ -f $OLDPWD/core/email ]];then
 cp $OLDPWD/core/email $OLDPWD/$ruta_carpeta
 else
 echo -e "$r[!]$b Eliminaste el archivo que contenia el email:c"
-sleep 1
 exit 1
 fi
 if [[ -f hola ]];then
