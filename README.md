@@ -18,13 +18,13 @@
 <a href="https://github.com/HarrisSec/AIOPhish/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/HarrisSec/AIOPhish?label=Watchers&color=blue&style=flat-square"></a>
 </div>
 
-Herramienta de phishing con 40 plantillas.
+Herramienta de phishing con 43 plantillas.
 
 ### Caracteristicas:
 
 [#] Puedes enviar correos falsos [#]
 
-[#] 40 plantillas [#]
+[#] 43 plantillas [#]
 
 [#] 3 tunnel local.run/serveo/ngrok [#]
 
@@ -48,7 +48,6 @@ Herramienta de phishing con 40 plantillas.
 * `apt install git -y`
 * `git clone https://github.com/HarrisSec/AIOPhish`
 * `cd AIOPhish`
-* `chmod 771 aiophish
 * `./aiophish`
 
 ## Creditos :
