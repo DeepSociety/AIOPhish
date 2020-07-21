@@ -851,19 +851,6 @@ list_wifi
 fi
 }
 
-
-killphp(){
-if [[ $checkphp == *'php'* ]]; then
-killall -2 php > /dev/null 2>&1
-fi
-}
-
-killng(){
-if [[ $checkngrok == *'ngrok'* ]];then
-killall -2 ngrok > /dev/null 2>&1
-fi
-}
-
 go(){
 clear
 echo -e $bcolor
