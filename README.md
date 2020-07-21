@@ -44,11 +44,12 @@ Herramienta de phishing con 40 plantillas.
 
 # Instalación:
 
-`apt update && apt upgrade -y`
-`apt install git -y`
-`git clone https://github.com/HarrisSec/AIOPhish`
-`cd AIOPhish`
-`./aiophish`
+* `apt update && apt upgrade -y`
+* `apt install git -y`
+* `git clone https://github.com/HarrisSec/AIOPhish`
+* `cd AIOPhish`
+* `chmod 771 aiophish
+* `./aiophish`
 
 ## Creditos :
 ###  > Por algunas paginas:
