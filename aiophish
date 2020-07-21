@@ -1221,7 +1221,7 @@ echo -e "$a[$b 3$v ] Mostrar descripción"
 echo -e "$a[$b 4$v ] Mostrar una mini url"
 echo -e "$a[$b 5$v ] Mostrar alert box(Puede causar errores)"
 echo -e "$a[$b 6$v ] Redireccionar"
-echo -e "$a[$b 7$v ] Enviar email spoofing(correo falso)\n"
+echo -e "$a[$b 7$v ] Enviar correo falso\n"
 echo -e "$a[$b*$v]$b Para enpezar:\n"
 echo -e "$v[$b*$v]$b Escribe run o start.\n"
 }
