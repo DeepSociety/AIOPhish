@@ -9,5 +9,5 @@ victim=$(cat victima)
 envialink=$(cat hola)
 
 correobycalvinharrisxd=$pr1$victim$pr2"'$envialink'"$pr3"'$envialink'"$pr4
-echo $correobycalvinharrisxd
+export correobycalvinharrisxd
 	
