@@ -19,12 +19,12 @@ s="m"
 bcolor="\e[1;3$crnd$s"
 #Banners
 dev(){
-echo -e "\e[1;92m					dev\e[1;39m > HarrisSec"
+echo -e "\e[1;92m				  create by\e[1;39m > HiddenStar😛"
 }
 
 bye(){
 printf "$r ██████████\e[1;39m██████████\e[1;31m██████████\e[1;39m\n\n"
-printf "https://github.com/HarrisSec/AIOPhish"
+printf "https://github.com/HiddenSt4r/AIOPhish"
 printf "\n\n"
 printf "\e[1;33m[*]\e[1;32m Phishing tool 2.5\e[1;33m [*]\n\n\e[1;33m[!]\e[1;39m"
 printf " \e[1;39mNo elimines ningun archivo\e[0m\e[1;33m [!]\e[0m"
