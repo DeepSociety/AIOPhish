@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/HarrisSec"><img title="Author" src="https://img.shields.io/badge/Author-HarrisSec-svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/HarrisSec"><img title="Author" src="https://img.shields.io/badge/Author-HiddenSt4r-svg?style=for-the-badge&logo=github"></a>
 <a href="#"><img title="Open Source" src="https://img.shields.io/badge/Open%20Source-%E2%9D%A4-green?style=for-the-badge"></a>
 </p>
 
@@ -50,10 +50,16 @@ Herramienta de phishing con 43 plantillas.
 * `cd AIOPhish`
 * `./aiophish`
 
+# Cambios en la versión 2.5:
+#### -Se añadierón nuevas paginas
+#### -Nueva inferaz
+#### -Nueva opción para enviar correos falsos
+#### -Se corrigierón algunos errores
+
 ## Creditos :
 ###  > Por algunas paginas:
 #### > DarksecDevelopers (https://github.com/DarkSecDevelopers/HiddenEye.git)
 ###  > Paginas wifi:
 #### > error404-notfound (https://github.com/error404-notfound/ScorpFish)
 
-Comparte el script :b
+##### Comparte el script :b
