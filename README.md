@@ -1,7 +1,7 @@
 # AIOPhish
 
 <p align="center">
-<a href="#"><img title="AIOPhish" src="https://emailspoofbyharris.000webhostapp.com/pro/aio.png"></a>
+<a href="#"><img title="AIOPhish" src="https://emailspoofbyharris.000webhostapp.com/pro/aio.jpg"></a>
 </p>
 
 <p align="center">
