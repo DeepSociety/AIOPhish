@@ -48,6 +48,8 @@
 * `cd AIOPhish`
 * `./aiophish`
 
+###### Recuerda dar permisos de almacenamiento a termux, para poder acceder a las imagenes:b
+
 # Cambios en la versión 2.5:
 #### -Se añadierón nuevas paginas
 #### -Nueva inferaz
