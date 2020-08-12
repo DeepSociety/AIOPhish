@@ -1521,10 +1521,6 @@ if [[ -d images ]];then
 rm -rf images
 fi
 
-if [[ -d images ]];then
-rm -rf images
-fi
-
 mkdir images
 cp "$ruta" images
 obtener_name=$(basename "$ruta")
