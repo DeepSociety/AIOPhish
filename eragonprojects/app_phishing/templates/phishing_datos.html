@@ -1,0 +1,19 @@
+{% extends 'index.html' %}
+{% block contenido %}
+{% if msj %}
+    <h1>{{msj}}</h1>
+{% endif %}
+{% if obj %}
+{% for obj in obj %}
+                <div class="col-sm-7">
+                        <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ obj.tiempo }}</h5>
+                            <p>{{ obj.user }}</p>
+                            <p>Password: {{ obj.passw }}</p>
+                            </div>
+                        </div>
+                    </div>
+{% endfor %}
+{% endif %}
+{% endblock contenido %}
