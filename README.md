@@ -49,6 +49,10 @@
 
 ###### Recuerda dar permisos de almacenamiento a termux, para poder acceder a las imagenes:b
 
+
+# Cambios en la versión 2.6
+#### -Se agrego un sistema de administración de cuentas
+
 # Cambios en la versión 2.5:
 #### -Se añadierón nuevas paginas
 #### -Nueva inferaz
