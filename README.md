@@ -45,9 +45,9 @@
 * `apt install git -y`
 * `git clone https://github.com/DeepSociety/AIOPhish`
 * `cd AIOPhish`
-* `./aiophish`
+* `./aiophish.sh`
 
-###### Recuerda dar permisos de almacenamiento a termux, para poder acceder a las imagenes:b
+###### Si usas termux dale permisos de almacenamiento, para poder acceder a las imagenes:b
 
 
 # Cambios en la versión 2.6
