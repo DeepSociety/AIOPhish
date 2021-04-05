@@ -1,5 +1,4 @@
-# STP
-### Social Toolkit for Phishing
+# Social Toolkit for Phishing
 
 <p align="center">
 <a href="#"><img title="STP" src="https://raw.githubusercontent.com/DeepSociety/STP/master/stp.png"></a>
@@ -20,12 +19,22 @@
 
 # Social Toolkit for Phishing
 
-# Instalación:
+# Instalación-Termux:
 
 * `apt update && apt upgrade -y`
 * `apt install git -y`
 * `git clone https://github.com/DeepSociety/STP`
 * `cd STP`
+* `bash install-termux.sh`
+* `./stp.sh`
+
+# Instalación-Debian:
+
+* `sudo apt-get update && sudo apt-get upgrade -y`
+* `sudo apt-get install git -y`
+* `git clone https://github.com/DeepSociety/STP`
+* `cd STP`
+* `bash install.sh`
 * `./stp.sh`
 
 ###### Si usas termux dale permisos de almacenamiento, para poder acceder a las imagenes:b
