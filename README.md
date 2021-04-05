@@ -1,4 +1,5 @@
-# AIOPhish
+# STP
+### Social Toolkit for Phishing
 
 <p align="center">
 <a href="#"><img title="AIOPhish" src="https://emailspoofbyharris.000webhostapp.com/pro/aio.jpg"></a>
