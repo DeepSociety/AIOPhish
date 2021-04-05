@@ -1,0 +1,12 @@
+#!/usr/bin/python
+
+import requests, urllib.request, urllib.error, urllib.parse, sys
+
+url = sys.argv[1]
+
+web = urllib.request.urlopen(url)
+weeb = web.read()
+f = open('index.html', 'wb')
+f.write(weeb)
+f.close
+
