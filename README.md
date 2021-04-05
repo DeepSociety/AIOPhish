@@ -10,7 +10,7 @@
 </p>
 
 <div align="center">
-<a href="#"><img title="Version" src="https://img.shields.io/badge/Version-2.5-green.svg?style=flat-square"></a>
+<a href="#"><img title="Version" src="https://img.shields.io/badge/Version-2.7-green.svg?style=flat-square"></a>
 <a href="https://github.com/DeepSociety/followers"><img title="Followers" src="https://img.shields.io/github/followers/DeepSociety?color=blue&style=flat-square"></a>
 <a href="https://github.com/HarrisSec/STP/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/HarrisSec/AIOPhish?color=red&style=flat-square"></a>
 <a href="https://github.com/HarrisSec/STP/network/members"><img title="Forks" src="https://img.shields.io/github/forks/HarrisSec/AIOPhish?color=red&style=flat-square"></a>
@@ -26,7 +26,7 @@
 * `git clone https://github.com/DeepSociety/STP`
 * `cd STP`
 * `bash install-termux.sh`
-* `./stp.sh`
+* `bash stp.sh`
 
 # Instalación-Debian:
 
@@ -35,7 +35,7 @@
 * `git clone https://github.com/DeepSociety/STP`
 * `cd STP`
 * `bash install.sh`
-* `./stp.sh`
+* `bash stp.sh`
 
 ###### Si usas termux dale permisos de almacenamiento, para poder acceder a las imagenes:b
 
