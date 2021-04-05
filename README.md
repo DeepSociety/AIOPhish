@@ -1,7 +1,7 @@
 # Social Toolkit for Phishing
 
 <p align="center">
-<a href="#"><img title="STP" src="https://raw.githubusercontent.com/DeepSociety/STP/master/stp.png"></a>
+<a href="#"><img title="STP" src="https://raw.githubusercontent.com/DeepSociety/STP/master/stpcap.png"></a>
 </p>
 
 <p align="center">
