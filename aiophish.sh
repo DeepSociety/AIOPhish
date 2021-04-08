@@ -18,18 +18,17 @@ bcolor="\e[1;3$crnd$s"
 
 a2(){
     clear
-    echo -e "$bcolor
-        ___________
-   _____\__    ___/_____$b    Social$bcolor
-  /  ___/ |    |  \____ \ $b  Toolkit$bcolor
-  \___ \  |    |  |  |_> > $b for$bcolor
- /____  > |____|  |   __/ $b  Phishing$bcolor
-      \/          |__|
-
+echo "     _    ___ ___  ____  _     _     _     ";
+echo "    / \  |_ _/ _ \|  _ \| |__ (_)___| |__  ";
+echo "   / _ \  | | | | | |_) | '_ \| / __| '_ \ ";
+echo "  / ___ \ | | |_| |  __/| | | | \__ \ | | |";
+echo " /_/   \_\___\___/|_|   |_| |_|_|___/_| |_|";
+echo -e "
+  Social Toolkit for Phishing
      ${b}coded by DeepSociety
 
 ${b}< https://github.com/DeepSociety >
- "
+"
 }
 
 paquetes(){
