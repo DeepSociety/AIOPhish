@@ -1,4 +1,4 @@
-# Social Toolkit for Phishing
+# Social Toolkit for Phishing - AIOPhish
 
 <p align="center">
 <a href="#"><img title="STP" src="https://raw.githubusercontent.com/DeepSociety/STP/master/stpcap.png"></a>
@@ -12,12 +12,10 @@
 <div align="center">
 <a href="#"><img title="Version" src="https://img.shields.io/badge/Version-2.7-green.svg?style=flat-square"></a>
 <a href="https://github.com/DeepSociety/followers"><img title="Followers" src="https://img.shields.io/github/followers/DeepSociety?color=blue&style=flat-square"></a>
-<a href="https://github.com/HarrisSec/STP/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/HarrisSec/AIOPhish?color=red&style=flat-square"></a>
-<a href="https://github.com/HarrisSec/STP/network/members"><img title="Forks" src="https://img.shields.io/github/forks/HarrisSec/AIOPhish?color=red&style=flat-square"></a>
-<a href="https://github.com/HarrisSec/STP/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/HarrisSec/AIOPhish?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/HarrisSec/AIOPhish/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/HarrisSec/AIOPhish?color=red&style=flat-square"></a>
+<a href="https://github.com/HarrisSec/AIOPhish/network/members"><img title="Forks" src="https://img.shields.io/github/forks/HarrisSec/AIOPhish?color=red&style=flat-square"></a>
+<a href="https://github.com/HarrisSec/AIOPhish/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/HarrisSec/AIOPhish?label=Watchers&color=blue&style=flat-square"></a>
 </div>
-
-# Social Toolkit for Phishing
 
 # Instalación-Termux:
 
@@ -26,7 +24,7 @@
 * `git clone https://github.com/DeepSociety/STP`
 * `cd STP`
 * `bash install-termux.sh`
-* `bash stp.sh`
+* `bash aiophish.sh`
 
 # Instalación-Debian:
 
@@ -35,7 +33,7 @@
 * `git clone https://github.com/DeepSociety/STP`
 * `cd STP`
 * `bash install.sh`
-* `bash stp.sh`
+* `bash aiophish.sh`
 
 ###### Si usas termux dale permisos de almacenamiento, para poder acceder a las imagenes:b
 
