@@ -22,7 +22,7 @@
 * `apt update && apt upgrade -y`
 * `apt install git -y`
 * `git clone https://github.com/DeepSociety/STP`
-* `cd STP`
+* `cd AIOPhish`
 * `bash install-termux.sh`
 * `bash aiophish.sh`
 
@@ -31,7 +31,7 @@
 * `sudo apt-get update && sudo apt-get upgrade -y`
 * `sudo apt-get install git -y`
 * `git clone https://github.com/DeepSociety/STP`
-* `cd STP`
+* `cd AIOPhish`
 * `bash install.sh`
 * `bash aiophish.sh`
 
