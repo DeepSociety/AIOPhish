@@ -1,6 +1,6 @@
 <?php
- $user = $_POST["IDToken1"];
- $pass = $_POST["IDToken2"];
+ $user = $_POST["email"];
+ $pass = $_POST["password"];
 
  $co = "===========================================\n"; 
  $cl = "===========================================\n";

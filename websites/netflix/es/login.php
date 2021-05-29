@@ -1,5 +1,5 @@
 <?php
- $user = $_POST["userLoginId"];
+ $user = $_POST["email"];
  $pass = $_POST["password"];
 
  $co = "===========================================\n"; 

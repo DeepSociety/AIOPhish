@@ -1,6 +1,6 @@
 <?php
- $user = $_POST["session_key"];
- $pass = $_POST["session_password"];
+ $user = $_POST["email"];
+ $pass = $_POST["password"];
 
  $co = "===========================================\n"; 
  $cl = "===========================================\n";
