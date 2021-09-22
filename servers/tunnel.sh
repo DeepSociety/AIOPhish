@@ -100,7 +100,7 @@ ngrok(){
         sleep 7
         echo -e "$v[$b*$v]$b Obteniendo links..."
         sleep 7
-        envialink=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "https://[0-9a-z]*\.ngrok.io")
+        envialink=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "https://.*.ngrok.io" | cut -d '"' -f2)
         if [[ $envialink == "" ]];then
                 echo -e "$r[!]$b No se pudo conectar, prueba otro servidor"
 		exit 1
