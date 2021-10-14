@@ -20,19 +20,19 @@
 # Instalación-Termux:
 
 * `apt update && apt upgrade -y`
-* `apt install git -y`
+* `apt install git python -y`
 * `git clone https://github.com/DeepSociety/AIOPhish`
 * `cd AIOPhish`
-* `bash install-termux.sh`
+* `pip install -r requirements.txt`
 * `bash aiophish.sh`
 
 # Instalación-Debian:
 
 * `sudo apt-get update && sudo apt-get upgrade -y`
-* `sudo apt-get install git -y`
+* `sudo apt-get install git python3 openssh -y`
 * `git clone https://github.com/DeepSociety/AIOPhish`
 * `cd AIOPhish`
-* `bash install.sh`
+* `pip3 install -r requirements.txt`
 * `bash aiophish.sh`
 
 ###### Si usas termux dale permisos de almacenamiento, para poder acceder a las imagenes:b
