@@ -29,7 +29,7 @@
 # Instalación-Debian:
 
 * `sudo apt-get update && sudo apt-get upgrade -y`
-* `sudo apt-get install git python3 -y`
+* `sudo apt-get install git python3 openssh -y`
 * `git clone https://github.com/DeepSociety/AIOPhish`
 * `cd AIOPhish`
 * `pip3 install -r requirements.txt`
